@@ -1,18 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "scss/layout/congrat_mail.scss",
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   style.scss 1:9  root stylesheet */
 
-body {
-  width: 600px;
-  border: black solid 1px;
-  font-family: "Poppins", sans-serif;
-  margin: 0 auto;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"scss/layout/congrat_mail.scss\",\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   style.scss 1:9  root stylesheet";
 }
-
-:root {
-  --main-color: #F07D00;
-}
-
-/*# sourceMappingURL=style.css.map */
