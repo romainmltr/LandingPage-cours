@@ -10,97 +10,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
 }
-body .imgLogo {
-  display: flex;
-  justify-content: center;
-}
-body hr {
-  width: 75%;
-  margin: 0 auto;
-}
 
-header {
-  text-align: center;
-  margin-top: 50px;
-}
-header h2 {
-  font-size: 25px;
-  font-weight: 900;
-}
-header p {
-  font-size: 17px;
-}
-
-.presDW img {
-  opacity: 0.4;
-  margin-bottom: 15px;
-}
-.presDW a {
-  background-color: #419BF9;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 230px;
-  font-weight: 700;
-}
-
-section {
-  display: flex;
-  margin-top: 30px;
-}
-section .front {
-  padding: 30px 10px;
-  margin-left: 30px;
-}
-section .front h3 {
-  font-weight: 800;
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-section .front p {
-  font-size: 18px;
-}
-section .back {
-  padding: 30px 10px;
-  width: 50%;
-  margin-left: 130px;
-}
-section .back h3 {
-  font-weight: 800;
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-section .back p {
-  font-size: 18px;
-}
-section span {
-  margin-left: 30px;
-  margin-top: 20px;
-}
-section .connection {
-  text-align: center;
-}
-section .connection a, section .connection p {
-  color: #28B3E8;
-}
-section .connection p {
-  font-size: 18px;
-}
-
-footer {
-  background-color: #e4dada7a;
-  margin-top: 30px;
-  text-align: center;
-}
-footer .imgSm {
-  display: flex;
-  justify-content: space-around;
-  margin: 30px 0;
-}
-footer img, footer p {
-  margin: 20px 0;
+:root {
+  --main-color: #F07D00;
 }
 
 /*# sourceMappingURL=style.css.map */
