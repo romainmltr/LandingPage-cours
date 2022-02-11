@@ -4,11 +4,13 @@
 }
 
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 header {
   background-image: url(../../img/technology-g2f7ec9111_1920.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   margin: 0 auto;
@@ -17,6 +19,7 @@ header {
   max-width: 1920px;
   background-size: cover;
 }
+
 header p {
   margin-right: 28%;
   font-weight: bold;
@@ -25,28 +28,36 @@ header p {
   font-size: 58px;
   margin-bottom: 15%;
 }
+
 header p span {
   color: orange;
 }
+
 header .login-box {
   margin-top: 85%;
   width: 400px;
   padding: 40px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background: orange;
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
+
 header .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
   color: #fff;
   text-align: center;
 }
+
 header .login-box .user-box {
   position: relative;
 }
+
 header .login-box .user-box textarea {
   width: 100%;
   padding: 10px 0;
@@ -58,14 +69,17 @@ header .login-box .user-box textarea {
   outline: none;
   background: transparent;
 }
+
 header .login-box .user-box label {
   position: absolute;
   left: 0;
   font-size: 16px;
   color: #fff;
   pointer-events: none;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
+
 header .login-box .user-box textarea:focus ~ label,
 header .login-box .user-box textarea:valid ~ label {
   top: -20px;
@@ -73,15 +87,18 @@ header .login-box .user-box textarea:valid ~ label {
   color: #03e9f4;
   font-size: 12px;
 }
+
 header .login-box a {
   color: black;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
   letter-spacing: 4px;
 }
+
 header .login-box a:hover {
   background: #f40303;
   color: #fff;
@@ -91,12 +108,16 @@ header .login-box a:hover {
 section.classment {
   margin-top: 3%;
 }
+
 section.classment p {
   margin-bottom: 3%;
   font-size: 56px;
   margin-left: 20%;
 }
+
 section.classment .all-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -108,28 +129,43 @@ section.classment .all-img {
 }
 
 section.temoignage .pro {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 1%;
   padding-left: 10%;
   padding-right: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 section.temoignage .pro img {
   margin: 1%;
 }
+
 section.temoignage .pro2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 section.temoignage p {
   margin-left: 1%;
   font-size: 22px;
 }
+
 section.temoignage h2 {
   font-size: 32px;
 }
+
 section.temoignage a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   color: white;
   background-color: orange;
@@ -140,13 +176,17 @@ section.temoignage a {
 }
 
 section.new-bat {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 1%;
 }
+
 section.new-bat img {
   width: 50%;
   margin: 4%;
 }
+
 section.new-bat p {
   padding: 12%;
   font-size: 22px;
@@ -155,5 +195,4 @@ section.new-bat p {
 footer {
   width: 50%;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=lp.css.map */

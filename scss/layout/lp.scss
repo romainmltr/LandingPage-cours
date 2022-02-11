@@ -1,0 +1,172 @@
+*{
+    margin: 0 auto;
+    padding: 0;  
+}
+
+body{
+    font-family: 'Poppins';
+}
+header{
+    background-image: url(../../img/technology-g2f7ec9111_1920.jpg);
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    min-height: 460px;
+    width: 100%;
+    max-width: 1920px;
+    background-size: cover;
+
+    p{
+        margin-right: 28%;
+        font-weight: bold;
+        margin-top: 15%;
+        color:white;
+        font-size: 58px;
+        margin-bottom: 15%;
+        span{
+            color:orange;
+        }
+    
+    }
+    .login-box {
+        margin-top: 85%;
+        width: 400px;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: orange;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 10px;
+      }
+      
+      .login-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+      }
+      
+      .login-box .user-box {
+        position: relative;
+      }
+      
+      .login-box .user-box textarea {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+      }
+      .login-box .user-box label {
+        position: absolute;
+        left: 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s;
+      }
+      
+      .login-box .user-box textarea:focus ~ label,
+      .login-box .user-box textarea:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: #03e9f4;
+        font-size: 12px;
+      }
+      
+      .login-box  a {
+        color: black;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px
+      }
+      
+      .login-box a:hover {
+        background: #f40303;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+    
+    
+
+section.classment{
+    margin-top:3%;
+    p{
+        margin-bottom:3%;
+        font-size:56px;
+        margin-left: 20%;
+    }
+    .all-img{
+        display: flex;
+    }
+}
+
+.color-block{
+    margin-top: 2%;
+    height:100px;
+    background-color: #48484A;
+    margin-bottom: 5%;
+}
+
+section.temoignage{
+
+    .pro{
+        align-items: center;
+        img{
+            margin: 1%;
+        }
+        margin: 1%;
+        padding-left:10%;
+        padding-right:15%;
+        display: flex;
+    }
+   .pro2{
+       display: flex;   
+   } 
+   p{
+    margin-left: 1%;
+    font-size:22px;
+}
+    h2{
+        font-size:32px;
+    }
+
+    a{
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      background-color: orange;
+      width: 10%;
+      height: 50px;
+      text-align: center;
+      border-radius:5px;
+    }
+}  
+section.new-bat{
+    display: flex;
+    margin: 1%;
+    img{
+        width: 50%;
+        margin: 4%;
+    }
+
+    p{
+        padding: 12%;
+        font-size:22px;
+    }
+}
+
+footer{
+    width: 50%;
+}
+
+
